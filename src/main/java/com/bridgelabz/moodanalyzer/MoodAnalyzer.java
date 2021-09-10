@@ -29,7 +29,7 @@ public class MoodAnalyzer {
 		}
 
 		catch(NullPointerException e) {
-			throw new MoodAnalyzerException(exceptionType.ENTERED_EMPTY,"Please Enter Proper Message!");
+			throw new MoodAnalyzerException(exceptionType.ENTERED_NULL,"Please Enter Proper Message!");
 		}
 
 	}
