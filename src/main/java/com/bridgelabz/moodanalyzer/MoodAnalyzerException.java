@@ -1,7 +1,7 @@
 package com.bridgelabz.moodanalyzer;
 
 @SuppressWarnings("serial")
-public class MoodAnalyzerException extends Exception {
+public class MoodAnalyzerException extends RuntimeException {
 
 	enum exceptionType {
 
